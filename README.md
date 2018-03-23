@@ -68,7 +68,8 @@ Add the dependency:
 
 ## How To Use
 ### AutoVersion
-[![API](https://img.shields.io/badge/API-19%2B-blue.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/Mystery0Tools/AutoVersion.svg) [![JitPack](https://img.shields.io/jitpack/v/Mystery0Tools/AutoVersion.svg)](https://jitpack.io/#Mystery0Tools/AutoVersion) [![GitHub release](https://img.shields.io/github/release/Mystery0Tools/AutoVersion.svg)](https://github.com/Mystery0Tools/AutoVersion) ![GitHub Release Date](https://img.shields.io/github/release-date/Mystery0Tools/AutoVersion.svg) 
+[![API](https://img.shields.io/badge/API-19%2B-blue.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/Mystery0Tools/AutoVersion.svg) [![JitPack](https://img.shields.io/jitpack/v/Mystery0Tools/AutoVersion.svg)](https://jitpack.io/#Mystery0Tools/AutoVersion) [![GitHub release](https://img.shields.io/github/release/Mystery0Tools/AutoVersion.svg)](https://github.com/Mystery0Tools/AutoVersion) ![GitHub Release Date](https://img.shields.io/github/release-date/Mystery0Tools/AutoVersion.svg)
+
 The source code of this module is from [https://github.com/nillith/AutoVersion](https://github.com/nillith/AutoVersion "https://github.com/nillith/AutoVersion"), I just added the beta and Alpha fields. It will generating version name such as `1.2.3-beta4` or `1.2.3-alpha5`. The version code is still from git commits.
 #### How to use
 Put the following code to your `build.gradle` of project:
@@ -98,10 +99,12 @@ Now you can get the generate `version name` or `version code` by called `autoVer
 For example, a `1.2.3-beta4` is generated here, and if the `beta` value is 0, the name is `1.2.3-alpha5`, and if both `beta` and `alpha` are 0, the version number `1.2.3`. **Beta precedence over alpha**.
 ### BaseActivity
 [![API](https://img.shields.io/badge/API-19%2B-blue.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/Mystery0Tools/Tools.svg) [![JitPack](https://img.shields.io/jitpack/v/Mystery0Tools/Tools.svg)](https://jitpack.io/#Mystery0Tools/Tools) [![GitHub release](https://img.shields.io/github/release/Mystery0Tools/Tools.svg)](https://github.com/Mystery0Tools/Tools) ![GitHub Release Date](https://img.shields.io/github/release-date/Mystery0Tools/Tools.svg) 
+
 Make your activity extends [BaseActivity](https://github.com/Mystery00/Mystery0Tools/blob/master/tools/src/main/java/vip/mystery0/tools/base/BaseActivity.kt "BaseActivity"), you can use `toastMessage` function to make toast
 
 ### cookie manager for okhttp
 [![API](https://img.shields.io/badge/API-19%2B-blue.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/Mystery0Tools/OkhttpCookie.svg) [![JitPack](https://img.shields.io/jitpack/v/Mystery0Tools/OkhttpCookie.svg)](https://jitpack.io/#Mystery0Tools/OkhttpCookie) [![GitHub release](https://img.shields.io/github/release/Mystery0Tools/OkhttpCookie.svg)](https://github.com/Mystery0Tools/OkhttpCookie) ![GitHub Release Date](https://img.shields.io/github/release-date/Mystery0Tools/OkhttpCookie.svg) 
+
 If you use okhttp to request remote resource, you can set interceptor to manager cookies.
 Just do the following code for you `OkHttpClient`! 
 ```java
@@ -114,6 +117,7 @@ You can also call another constructor to set the `sharedprefence` name.
 
 ### CrashHandler
 [![API](https://img.shields.io/badge/API-19%2B-blue.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/Mystery0Tools/CrashHandler.svg) [![JitPack](https://img.shields.io/jitpack/v/Mystery0Tools/CrashHandler.svg)](https://jitpack.io/#Mystery0Tools/CrashHandler) [![GitHub release](https://img.shields.io/github/release/Mystery0Tools/CrashHandler.svg)](https://github.com/Mystery0Tools/CrashHandler) ![GitHub Release Date](https://img.shields.io/github/release-date/Mystery0Tools/CrashHandler.svg) 
+
 Just call the following code to your Application.
 ```java
 CrashHandler.getInstance(this).init();
@@ -123,6 +127,7 @@ More use see in [simple](https://github.com/Mystery00/Mystery0Tools/blob/master/
 
 ### Dir Manager
 [![API](https://img.shields.io/badge/API-19%2B-blue.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/Mystery0Tools/DirManager.svg) [![JitPack](https://img.shields.io/jitpack/v/Mystery0Tools/DirManager.svg)](https://jitpack.io/#Mystery0Tools/DirManager) [![GitHub release](https://img.shields.io/github/release/Mystery0Tools/DirManager.svg)](https://github.com/Mystery0Tools/DirManager) ![GitHub Release Date](https://img.shields.io/github/release-date/Mystery0Tools/DirManager.svg) 
+
 You can use this to select directory. Use it like custom view.
 ```xml
 <vip.mystery0.tools.dirManager.DirManager
@@ -168,10 +173,12 @@ dirManager.setAdapter(new MyAdapter(fileList));
 ```
 ### Logs
 [![API](https://img.shields.io/badge/API-19%2B-blue.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/Mystery0Tools/Logs.svg) [![JitPack](https://img.shields.io/jitpack/v/Mystery0Tools/Logs.svg)](https://jitpack.io/#Mystery0Tools/Logs) [![GitHub release](https://img.shields.io/github/release/Mystery0Tools/Logs.svg)](https://github.com/Mystery0Tools/Logs) ![GitHub Release Date](https://img.shields.io/github/release-date/Mystery0Tools/Logs.svg) 
+
 You can just use it like `android.util.Log`, but you can set level for log to control which should show.
 
 ### Utils
 [![API](https://img.shields.io/badge/API-19%2B-blue.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/Mystery0Tools/Tools.svg) [![JitPack](https://img.shields.io/jitpack/v/Mystery0Tools/Tools.svg)](https://jitpack.io/#Mystery0Tools/Tools) [![GitHub release](https://img.shields.io/github/release/Mystery0Tools/Tools.svg)](https://github.com/Mystery0Tools/Tools) ![GitHub Release Date](https://img.shields.io/github/release-date/Mystery0Tools/Tools.svg) 
+
 #### ColorTools
 You can use [this tool](https://github.com/Mystery00/Mystery0Tools/blob/master/tools/src/main/java/vip/mystery0/tools/utils/ColorTools.kt) to parse color or add `alpha` to local color.
 #### DensityTools

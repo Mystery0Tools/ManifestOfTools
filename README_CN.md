@@ -69,6 +69,7 @@ Mystery0Tools是来自于原[ToolsDemo](https://github.com/Mystery00/ToolsDemo "
 ## How To Use
 ### AutoVersion
 [![API](https://img.shields.io/badge/API-19%2B-blue.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/Mystery0Tools/AutoVersion.svg) [![JitPack](https://img.shields.io/jitpack/v/Mystery0Tools/AutoVersion.svg)](https://jitpack.io/#Mystery0Tools/AutoVersion) [![GitHub release](https://img.shields.io/github/release/Mystery0Tools/AutoVersion.svg)](https://github.com/Mystery0Tools/AutoVersion) ![GitHub Release Date](https://img.shields.io/github/release-date/Mystery0Tools/AutoVersion.svg) 
+
 源码来自[https://github.com/nillith/AutoVersion](https://github.com/nillith/AutoVersion "https://github.com/nillith/AutoVersion")，我只是添加了beta和alpha字段，便于生成`1.2.3-beta4`或者`1.2.3-alpha5`这样的版本名称。版本号依旧来源于git提交次数。
 #### How to use
 将以下代码添加进您的项目级的build.gradle中：
@@ -102,6 +103,7 @@ Mystery0Tools是来自于原[ToolsDemo](https://github.com/Mystery00/ToolsDemo "
 
 ### cookie manager for okhttp
 [![API](https://img.shields.io/badge/API-19%2B-blue.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/Mystery0Tools/OkhttpCookie.svg) [![JitPack](https://img.shields.io/jitpack/v/Mystery0Tools/OkhttpCookie.svg)](https://jitpack.io/#Mystery0Tools/OkhttpCookie) [![GitHub release](https://img.shields.io/github/release/Mystery0Tools/OkhttpCookie.svg)](https://github.com/Mystery0Tools/OkhttpCookie) ![GitHub Release Date](https://img.shields.io/github/release-date/Mystery0Tools/OkhttpCookie.svg) 
+
 如果你在使用okhttp进行网络请求，你可以通过设置拦截器来管理cookies。
 只需要为您的`OkHttpClient`执行以下代码！
 ```java
@@ -114,6 +116,7 @@ OkHttpClient okHttpClient=new OkHttpClient.Builder()
 
 ### CrashHandler
 [![API](https://img.shields.io/badge/API-19%2B-blue.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/Mystery0Tools/CrashHandler.svg) [![JitPack](https://img.shields.io/jitpack/v/Mystery0Tools/CrashHandler.svg)](https://jitpack.io/#Mystery0Tools/CrashHandler) [![GitHub release](https://img.shields.io/github/release/Mystery0Tools/CrashHandler.svg)](https://github.com/Mystery0Tools/CrashHandler) ![GitHub Release Date](https://img.shields.io/github/release-date/Mystery0Tools/CrashHandler.svg) 
+
 只需要调用以下代码到您的Application实例中：
 ```java
 CrashHandler.getInstance(this).init();
@@ -123,6 +126,7 @@ CrashHandler.getInstance(this).init();
 
 ### Dir Manager
 [![API](https://img.shields.io/badge/API-19%2B-blue.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/Mystery0Tools/DirManager.svg) [![JitPack](https://img.shields.io/jitpack/v/Mystery0Tools/DirManager.svg)](https://jitpack.io/#Mystery0Tools/DirManager) [![GitHub release](https://img.shields.io/github/release/Mystery0Tools/DirManager.svg)](https://github.com/Mystery0Tools/DirManager) ![GitHub Release Date](https://img.shields.io/github/release-date/Mystery0Tools/DirManager.svg) 
+
 你可以使用这个来选择文件夹，就像使用自定义View一样：
 ```xml
 <vip.mystery0.tools.dirManager.DirManager
@@ -167,10 +171,12 @@ dirManager.setAdapter(new MyAdapter(fileList));
 ```
 ### Logs
 [![API](https://img.shields.io/badge/API-19%2B-blue.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/Mystery0Tools/Logs.svg) [![JitPack](https://img.shields.io/jitpack/v/Mystery0Tools/Logs.svg)](https://jitpack.io/#Mystery0Tools/Logs) [![GitHub release](https://img.shields.io/github/release/Mystery0Tools/Logs.svg)](https://github.com/Mystery0Tools/Logs) ![GitHub Release Date](https://img.shields.io/github/release-date/Mystery0Tools/Logs.svg) 
+
 你可以像使用`android.util.Log`一样使用，但是你可以控制日志等级来决定是否显示。
 
 ### Utils
 [![API](https://img.shields.io/badge/API-19%2B-blue.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/Mystery0Tools/Tools.svg) [![JitPack](https://img.shields.io/jitpack/v/Mystery0Tools/Tools.svg)](https://jitpack.io/#Mystery0Tools/Tools) [![GitHub release](https://img.shields.io/github/release/Mystery0Tools/Tools.svg)](https://github.com/Mystery0Tools/Tools) ![GitHub Release Date](https://img.shields.io/github/release-date/Mystery0Tools/Tools.svg) 
+
 #### ColorTools
 你可以使用[这个工具](https://github.com/Mystery00/Mystery0Tools/blob/master/tools/src/main/java/vip/mystery0/tools/utils/ColorTools.kt)来解析颜色或者给现有颜色添加`alpha`。
 #### DensityTools
