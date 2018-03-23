@@ -4,7 +4,7 @@
 一个针对Android开发者的工具库。
 Mystery0Tools是来自于原[ToolsDemo](https://github.com/Mystery00/ToolsDemo "ToolsDemo")的仓库。
 
-[README](https://github.com/Mystery00/Mystery0Tools/blob/master/README.md "README")
+[README](https://github.com/Mystery0Tools/ManifestOfTools/blob/master/README.md "README")
 ## Download
 下载[最新的AAR包](https://github.com/Mystery00/Mystery0Tools/releases "最新的AAR包")或者通过Gradle集成：
 将以下代码添加进您的项目级的Build.gradle最后：
@@ -99,6 +99,7 @@ Mystery0Tools是来自于原[ToolsDemo](https://github.com/Mystery00/ToolsDemo "
 例如，这里生成的是`1.2.3-beta4`，如果`beta`字段是0，版本名称将是`1.2.3-alpha5`，如果`beta`和`alpha`同时为0。版本名称将会是`1.2.3`。**beta优先于alpha。**
 ### BaseActivity
 [![API](https://img.shields.io/badge/API-19%2B-blue.svg)]() ![GitHub last commit](https://img.shields.io/github/last-commit/Mystery0Tools/Tools.svg) [![JitPack](https://img.shields.io/jitpack/v/Mystery0Tools/Tools.svg)](https://jitpack.io/#Mystery0Tools/Tools) [![GitHub release](https://img.shields.io/github/release/Mystery0Tools/Tools.svg)](https://github.com/Mystery0Tools/Tools) ![GitHub Release Date](https://img.shields.io/github/release-date/Mystery0Tools/Tools.svg) 
+
 让您的activity继承于[BaseActivity](https://github.com/Mystery00/Mystery0Tools/blob/master/tools/src/main/java/vip/mystery0/tools/base/BaseActivity.kt "BaseActivity")，你就可以通过`toastMessage`方法来显示toast。
 
 ### cookie manager for okhttp

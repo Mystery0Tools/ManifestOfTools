@@ -4,7 +4,7 @@
 Some tools for Android developer.
 Mystery0Tools is a new library from [ToolsDemo](https://github.com/Mystery00/ToolsDemo "ToolsDemo")
 
-[中文文档](https://github.com/Mystery00/Mystery0Tools/blob/master/README_CN.md "中文文档")
+[中文文档](https://github.com/Mystery0Tools/ManifestOfTools/blob/master/README_CN.md "中文文档")
 ## Download
 Download [the latest AAR](https://github.com/Mystery00/Mystery0Tools/releases "the latest AAR") or grab via Gradle:
 Add it in your root build.gradle at the end of repositories:
