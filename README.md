@@ -81,7 +81,7 @@ Put the following code to your `build.gradle` of project:
 	}
     dependencies {
         ……
-		classpath 'com.github.Mystery0Tools:AutoVersion:1.0.0'
+		classpath 'com.github.Mystery0Tools:AutoVersion:x.x.x'
 	}
 
 Then put the code to your `build.gradle` of app:

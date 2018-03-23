@@ -81,7 +81,7 @@ Mystery0Tools是来自于原[ToolsDemo](https://github.com/Mystery00/ToolsDemo "
 	}
     dependencies {
         ……
-		classpath 'com.github.Mystery0Tools:AutoVersion:1.0.0'
+		classpath 'com.github.Mystery0Tools:AutoVersion:x.x.x'
 	}
 
 然后将以下代码添加进您的APP级的build.gradle中：
