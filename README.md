@@ -6,7 +6,7 @@ Mystery0Tools is a new library from [ToolsDemo](https://github.com/Mystery00/Too
 
 [中文文档](https://github.com/Mystery0Tools/ManifestOfTools/blob/master/README_CN.md "中文文档")
 ## Download
-Download [the latest AAR](https://github.com/Mystery00/Mystery0Tools/releases "the latest AAR") or grab via Gradle:
+Grab via Gradle:
 Add it in your root build.gradle at the end of repositories:
 
     allprojects {

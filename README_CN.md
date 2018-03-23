@@ -6,7 +6,7 @@ Mystery0Tools是来自于原[ToolsDemo](https://github.com/Mystery00/ToolsDemo "
 
 [README](https://github.com/Mystery0Tools/ManifestOfTools/blob/master/README.md "README")
 ## Download
-下载[最新的AAR包](https://github.com/Mystery00/Mystery0Tools/releases "最新的AAR包")或者通过Gradle集成：
+通过Gradle集成：
 将以下代码添加进您的项目级的Build.gradle最后：
 
     allprojects {
