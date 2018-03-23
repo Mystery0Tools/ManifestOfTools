@@ -1,4 +1,4 @@
-[![license](https://img.shields.io/github/license/Mystery00/Mystery0Tools.svg)](https://github.com/Mystery00/Mystery0Tools/blob/master/LICENSE) [![GitHub followers](https://img.shields.io/github/followers/Mystery00.svg?style=social&logo=github&label=Follow)](https://github.com/Mystery00)
+[![license](https://img.shields.io/github/license/Mystery0Tools/ManifestOfTools.svg)](https://github.com/Mystery00/Mystery0Tools/blob/master/LICENSE) [![GitHub followers](https://img.shields.io/github/followers/Mystery00.svg?style=social&logo=github&label=Follow)](https://github.com/Mystery00)
 
 ## Mystery0Tools
 一个针对Android开发者的工具库。
@@ -18,11 +18,11 @@ Mystery0Tools是来自于原[ToolsDemo](https://github.com/Mystery00/ToolsDemo "
 然后添加依赖：
 
     dependencies {
-    	compile 'com.github.Mystery0Tools:Tools:x.x.x'
-		compile 'com.github.Mystery0Tools:CrashHandler:x.x.x'
-		compile 'com.github.Mystery0Tools:DirManager:x.x.x'
-		compile 'com.github.Mystery0Tools:Logs:x.x.x'
-		compile 'com.github.Mystery0Tools:OkhttpCookie:x.x.x'
+    	implementation 'com.github.Mystery0Tools:Tools:x.x.x'
+		implementation 'com.github.Mystery0Tools:CrashHandler:x.x.x'
+		implementation 'com.github.Mystery0Tools:DirManager:x.x.x'
+		implementation 'com.github.Mystery0Tools:Logs:x.x.x'
+		implementation 'com.github.Mystery0Tools:OkhttpCookie:x.x.x'
     }
 或者通过Maven：
 添Jitpack仓库到您的构建文件中：

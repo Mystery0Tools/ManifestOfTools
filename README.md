@@ -1,4 +1,4 @@
-[![license](https://img.shields.io/github/license/Mystery00/Mystery0Tools.svg)](https://github.com/Mystery00/Mystery0Tools/blob/master/LICENSE) [![GitHub followers](https://img.shields.io/github/followers/Mystery00.svg?style=social&logo=github&label=Follow)](https://github.com/Mystery00)
+[![license](https://img.shields.io/github/license/Mystery0Tools/ManifestOfTools.svg)](https://github.com/Mystery00/Mystery0Tools/blob/master/LICENSE) [![GitHub followers](https://img.shields.io/github/followers/Mystery00.svg?style=social&logo=github&label=Follow)](https://github.com/Mystery00)
 
 ## Mystery0Tools
 Some tools for Android developer.
@@ -18,11 +18,11 @@ Add it in your root build.gradle at the end of repositories:
 Then add the dependency:
 
     dependencies {
-    	compile 'com.github.Mystery0Tools:Tools:x.x.x'
-		compile 'com.github.Mystery0Tools:CrashHandler:x.x.x'
-		compile 'com.github.Mystery0Tools:DirManager:x.x.x'
-		compile 'com.github.Mystery0Tools:Logs:x.x.x'
-		compile 'com.github.Mystery0Tools:OkhttpCookie:x.x.x'
+    	implementation 'com.github.Mystery0Tools:Tools:x.x.x'
+		implementation 'com.github.Mystery0Tools:CrashHandler:x.x.x'
+		implementation 'com.github.Mystery0Tools:DirManager:x.x.x'
+		implementation 'com.github.Mystery0Tools:Logs:x.x.x'
+		implementation 'com.github.Mystery0Tools:OkhttpCookie:x.x.x'
     }
 or Maven:
 Add the JitPack repository to your build file:
